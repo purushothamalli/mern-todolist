@@ -49,9 +49,9 @@ npm install
 Create a `.env` file in the `backend` folder and add:
 ```env
 PORT=4000
-DB_URI=mongodb+srv://purushothamalli26_db_user:purushothamalli26@cluster0.npkgaj5.mongodb.net/TodolistDB?appName=Cluster0
-REFRESH_TOKEN_SECRET='vnlkdfaopfoa9wreinjjvoajvoaijcqwjpmmncxfm2cu90uqxmGLArchrqoxgroiujuvanruu4goiugfqnvaroiwuvnovinoqirw'
-ACCESS_TOKEN_SECRET='dvaadsjlntoquntwqupmndxut4xywomnsd89902dsmn983dsmmdwerm9d8gm83d4smmdgmx3qnlqwfnuundoqgrcorgyoyqrwymxq'
+DB_URI=your_mongodb_connection_string
+ACCESS_TOKEN_SECRET=your_secret_key
+REFRESH_TOKEN_SECRET=your_refresh_secret_key
 FRONTEND_URL=http://localhost:5173
 ```
 
