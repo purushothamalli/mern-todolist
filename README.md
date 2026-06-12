@@ -1,6 +1,16 @@
-# 📝 Full-Stack MERN Todo Application
+# 📝 MERN Todo Application
 
-A modern, secure, and responsive Todo management application built with the **MERN Stack** (MongoDB, Express, React, Node.js). This project features a robust authentication system and a clean, user-friendly interface.
+Hi, My name is **A.Purushotham**.
+
+This is **MERN Todo**, a task management application designed for productivity with a sleek and minimal interface, secured with advanced dual-token authentication.
+
+---
+
+## 💡 Frictionless Development Features
+
+- **Auto-Environment Setup:** No need to manually create `.env` files; the setup script generates them for you with secure random secrets.
+- **Single-Command Startup:** Use `npm run dev` in the root to launch the entire stack.
+- **Concurrent Logs:** View both frontend and backend logs in a single terminal window.
 
 ---
 
@@ -15,9 +25,57 @@ A modern, secure, and responsive Todo management application built with the **ME
 
 ---
 
+---
+
+## 🔧 Installation & Local Setup (Zero-Friction)
+
+We've simplified the setup process so you can get started in seconds.
+
+### 1. Clone & Install Everything
+
+One command to install dependencies and run the **Interactive Setup**.
+
+```bash
+git clone https://github.com/purushothamalli/mern-todolist
+cd mern-todolist
+npm install
+```
+
+_Note: The `npm install` command triggers an interactive CLI that will ask you for your database URI and preferred ports, automatically generating secure secrets for you._
+
+### 2. Configure Database
+
+Open `backend/.env` and update your `DB_URI` if you are using MongoDB Atlas (it defaults to local MongoDB).
+
+### 3. Run the Application
+
+Start both the Backend and Frontend with a single command:
+
+```bash
+npm run dev
+```
+
+- **Frontend:** http://localhost:5173
+- **Backend API:** http://localhost:4000
+
+---
+
+### 🐳 Alternative: Run with Docker (Instant Setup)
+
+If you have Docker installed, you don't even need to install Node.js locally:
+
+```bash
+docker-compose up --build
+```
+
+This will spin up the MongoDB database, Backend, and Frontend all at once.
+
+---
+
 ## 🛠️ Tech Stack
 
 **Frontend:**
+
 - **React 19** & **Vite**
 - **React Router 7** (Navigation)
 - **Bootstrap 5** (Styling)
@@ -25,6 +83,7 @@ A modern, secure, and responsive Todo management application built with the **ME
 - **Context API** (State Management)
 
 **Backend:**
+
 - **Node.js** & **Express 5**
 - **MongoDB** & **Mongoose** (Database Modeling)
 - **JSON Web Tokens (JWT)** (Security)
@@ -33,58 +92,13 @@ A modern, secure, and responsive Todo management application built with the **ME
 
 ---
 
-## 🔧 Installation & Local Setup
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/purushothamalli/mern-todolist
-cd mern-todolist
-```
-
-### 2. Backend Setup
-```bash
-cd backend
-npm install
-```
-Create a `.env` file in the `backend` folder and add:
-```env
-PORT=4000
-DB_URI=your_mongodb_connection_string
-ACCESS_TOKEN_SECRET=your_secret_key
-REFRESH_TOKEN_SECRET=your_refresh_secret_key
-FRONTEND_URL=http://localhost:5173
-```
-
-### 3. Frontend Setup
-```bash
-cd ../frontend
-npm install
-```
-Create a `.env` file in the `frontend` folder and add:
-```env
-VITE_API_URL=http://localhost:4000/api
-```
-
-### 4. Run the Application
-- **Backend:** `cd backend && npm run dev`
-- **Frontend:** `cd frontend && npm run dev`
-
----
-
-## 🌐 Deployment
-
-This application is architected to be deployment-ready:
-- **Database:** Hosted on **MongoDB Atlas**.
-- **Backend:** Deployed on **Render** (Root: `backend`).
-- **Frontend:** Deployed on **Vercel** (Root: `frontend`).
-
----
-
 ## 👨‍💻 Author
+
 **A.Purushotham**
+
 - LinkedIn: https://www.linkedin.com/in/purushotham-alli-34962739b
 - Portfolio: https://purushothamalli.github.io/MyPortfolio/
 
 ---
 
-*Note: This project was built to demonstrate proficiency in full-stack development, specifically focusing on secure authentication flows and modern React architectural patterns.*
+_Note: This project was built to demonstrate proficiency in full-stack development, specifically focusing on secure authentication flows and modern React architectural patterns._

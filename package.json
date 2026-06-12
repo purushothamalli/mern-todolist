@@ -1,0 +1,20 @@
+{
+  "name": "mern-todolist-root",
+  "version": "1.0.0",
+  "description": "Root management for MERN Todo List",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.js",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run setup && npm run install:backend && npm run install:frontend",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "postinstall": "npm run setup"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
