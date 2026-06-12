@@ -6,14 +6,6 @@ This is **MERN Todo**, a task management application designed for productivity w
 
 ---
 
-## 💡 Frictionless Development Features
-
-- **Auto-Environment Setup:** No need to manually create `.env` files; the setup script generates them for you with secure random secrets.
-- **Single-Command Startup:** Use `npm run dev` in the root to launch the entire stack.
-- **Concurrent Logs:** View both frontend and backend logs in a single terminal window.
-
----
-
 ## 🚀 Features
 
 - **Secure Authentication:** Implementation of JWT-based authentication with **Access Tokens** and **Refresh Tokens** for a seamless and secure login experience.
@@ -24,6 +16,10 @@ This is **MERN Todo**, a task management application designed for productivity w
 - **Modern React:** Utilizes React 19, Hooks (useState, useEffect, useContext), and custom hooks for clean, maintainable code.
 
 ---
+
+## 📖 Documentation
+
+If you are looking for more details about the project, go to the [Wiki Section](https://github.com/purushothamalli/mern-todolist/wiki).
 
 ---
 
@@ -69,26 +65,6 @@ docker-compose up --build
 ```
 
 This will spin up the MongoDB database, Backend, and Frontend all at once.
-
----
-
-## 🛠️ Tech Stack
-
-**Frontend:**
-
-- **React 19** & **Vite**
-- **React Router 7** (Navigation)
-- **Bootstrap 5** (Styling)
-- **Axios** (API Requests with Interceptors)
-- **Context API** (State Management)
-
-**Backend:**
-
-- **Node.js** & **Express 5**
-- **MongoDB** & **Mongoose** (Database Modeling)
-- **JSON Web Tokens (JWT)** (Security)
-- **Bcrypt** (Password Hashing)
-- **Cookie-Parser** (Secure Cookie Handling)
 
 ---
 
