@@ -39,11 +39,7 @@ npm install
 
 _Note: The `npm install` command triggers an interactive CLI that will ask you for your database URI and preferred ports, automatically generating secure secrets for you._
 
-### 2. Configure Database
-
-Open `backend/.env` and update your `DB_URI` if you are using MongoDB Atlas (it defaults to local MongoDB).
-
-### 3. Run the Application
+### 2. Run the Application
 
 Start both the Backend and Frontend with a single command:
 
